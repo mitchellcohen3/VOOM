@@ -118,3 +118,6 @@ add_executable(rgbd_diamond_with_ellipse
 Examples/rgbd_diamond_with_ellipse.cc)
 target_link_libraries(rgbd_diamond_with_ellipse ${PROJECT_NAME})
 
+add_executable(rgbd_realsense_with_ellipse Examples/rgbd_realsense_with_ellipse.cc)
+target_link_libraries(rgbd_realsense_with_ellipse ${PROJECT_NAME})
+
